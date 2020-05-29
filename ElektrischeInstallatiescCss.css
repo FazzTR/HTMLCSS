@@ -1,5 +1,6 @@
 body {
 
+
 }
 .logo{
 
@@ -39,5 +40,13 @@ body {
     position: absolute;
     top: 58%;
     left: 3%;
+    background-color: bisque;
+
+}
+.nav-link-bottom {
+
+    position: absolute;
+    top: 90%;
+    justify-content: space-around;
 
 }
