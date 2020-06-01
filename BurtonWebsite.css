@@ -1,0 +1,55 @@
+.logoBurton {
+
+    height: 35px;
+    width: 300px;
+
+}
+.nav-links-Burton {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 12%;
+    position: absolute;
+    right: 88%;
+
+}
+.heyapple {
+
+ position: absolute;
+    top: 10%;
+
+}
+.bus {
+
+    position: absolute;
+    top: 10%;
+    left: 27%;
+
+}
+.desk {
+
+    position: absolute;
+    left: 27%;
+    top: 23%;
+
+}
+.math {
+
+    position: absolute;
+    left: 27%;
+    top: 36%;
+    height: 11%;
+    width: 26%;
+
+}
+.article {
+
+    position: absolute;
+    top: 46%;
+    width: 10%;
+    height: 30%;
+    display: inline-block;
+
+
+}
