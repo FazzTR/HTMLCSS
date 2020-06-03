@@ -1,55 +1,41 @@
+* {
+
+    box-sizing: border-box;
+}
+div#wrapper {
+
+    margin: auto;
+    width: 1000px;
+    background-color: #ffe9ec
+    padding: 20px;
+
+}
+
+
 .logoBurton {
 
-    height: 35px;
-    width: 300px;
+    height: 40px;
+    width: 340px;
+}
+nav {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
-.nav-links-Burton {
+nav a {
 
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 12%;
-    position: absolute;
-    right: 88%;
+    margin-right: 20px;
 
 }
-.heyapple {
+section.apple, section.visuals {
 
- position: absolute;
-    top: 10%;
-
-}
-.bus {
-
-    position: absolute;
-    top: 10%;
-    left: 27%;
+    width: 50%;
+    float: left;
 
 }
-.desk {
+section.visuals {
 
-    position: absolute;
-    left: 27%;
-    top: 23%;
-
-}
-.math {
-
-    position: absolute;
-    left: 27%;
-    top: 36%;
-    height: 11%;
-    width: 26%;
-
-}
-.article {
-
-    position: absolute;
-    top: 46%;
-    width: 10%;
-    height: 30%;
-    display: inline-block;
-
+    text-align: right;
 
 }
