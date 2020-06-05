@@ -6,7 +6,6 @@ div#wrapper {
 
     margin: auto;
     width: 1000px;
-    background-color: #ffe9ec
     padding: 20px;
 
 }
@@ -28,14 +27,21 @@ nav a {
     margin-right: 20px;
 
 }
-section.apple, section.visuals {
+.visuals {
 
-    width: 50%;
-    float: left;
+    position: absolute;
+    left: 52%;
+    top: 14%;
+    padding-left: 3px;
 
 }
-section.visuals {
+.apple {
 
-    text-align: right;
+    width: 497px;
 
+}
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
