@@ -1,19 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="Forms.css">
     <meta charset="UTF-8">
     <title>Forms</title>
 </head>
-<body>
+<body style="font-family: 'Arial Black'">
 <form action="https://www.savatarian.com/html5/form.php" method="post">
+
     <div class="form-group">
         <label id="Voornaam">Voornaam: </label>
         <input type="text" name="Voornaam">
     </div>
+
+    <div class="form-group">
+        <label id="Tussenvoegsel">Tussenvoegsel: </label>
+        <input type="text" name="Tussenvoegsel">
+    </div>
+
     <div class="form-group">
         <label id="Achternaam">Achternaam: </label>
         <input type="text" name="Achternaam">
     </div>
 
+    <div class="form-group">
+        <input type="radio" name="geslacht" value="Man">
+        &nbsp;Man
+        <input type="radio" name="geslacht" value="Vrouw">
+        &nbsp;Vrouw
+    </div>
+
+    <div class="form-group">
+        <select name="Kleur-ogen: ">
+            <option>Groene ogen</option>
+            <option>Blauwe ogen</option>
+            <option>Bruine ogen</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <input type="date" name="geboortdatum: " />
+    </div>
+
+    <div class="form-group">
+        <textarea name="omschrijving: "></textarea>
+    </div>
+    <div class="checkbox">
+        <label id="lekker-eten">Lekker eten: </label><br>
+        <input type="checkbox" name="Lekker-eten" value="patat">
+        <span class="checkboxs">Patat</span> <br>
+        <input type="checkbox" name="Lekker-eten" value="bruine bonen">
+        <span class="checkboxs">Bruine bonen</span> <br>
+        <input type="checkbox" name="Lekker-eten" value="linzen">
+        <span class="checkboxs">Linzen</span> <br>
+    </div>
+
+    <div class="Knop">
+        <input type="submit" name="Verzenden">
+    </div>
+
+
+</form>
 </body>
 </html>

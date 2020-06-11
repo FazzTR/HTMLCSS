@@ -2,3 +2,22 @@ div.form-group {
     width: 500px;
     padding: 20px;
 }
+
+div.checkbox {
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+.checkboxs {
+
+    padding: 10px;
+
+}
+
+.Knop {
+
+    position: absolute;
+    left: 25%
+
+}
